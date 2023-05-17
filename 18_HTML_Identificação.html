@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+  /* Estilizar o elemento com o id "myHeader" */
+    #myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+    }
+/* estilizar todos os elementos com o nome da classe "cidade". */
+    .city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+</style>
+</head>
+<body>
+
+ <h1>Atributo de identificação HTML</h1>
+ 
+<!-- O atributo HTML idé usado para especificar um id exclusivo para um elemento HTML.
+
+Você não pode ter mais de um elemento com o mesmo id em um documento HTML. -->
+
+<h1>Usando o atributo id</h1>
+
+<!-- O idatributo especifica um id exclusivo para um elemento HTML. O valor do id atributo deve ser exclusivo no documento HTML.
+
+O idatributo é usado para apontar para uma declaração de estilo específica em uma folha de estilo. Também é usado pelo JavaScript para acessar e manipular o elemento com o id específico.
+
+A sintaxe para id é: escreva um caractere hash (#), seguido por um nome de id. Em seguida, defina as propriedades CSS entre chaves {}.
+
+No exemplo a seguir temos um <h1>elemento que aponta para o id de nome "myHeader". Este <h1> elemento será estilizado de acordo com a #myHeader definição de estilo na seção head: -->
+
+    <h1 id="myHeader">My Header</h1>
+
+    <!-- m elemento com uma identificação única-->
+<h1 id="myHeader">My Cities</h1>
+
+<!-- Múltiplos elementos com a mesma classe -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<h2>Marcadores HTML com ID e Links</h2>
+<!-- Marcadores HTML são usados ​​para permitir que os leitores pulem para partes específicas de uma página da web.
+
+Marcadores podem ser úteis se sua página for muito longa.
+
+Para usar um marcador, você deve primeiro criá-lo e, em seguida, adicionar um link a ele.
+
+Então, quando o link for clicado, a página rolará para o local com o marcador. -->
+
+<h2 id="C4">Chapter 4</h2>
+
+<a href="#C4">Jump to Chapter 4</a>
+
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
+
+
+<!-- Resumo do capítulo
+O idatributo é usado para especificar um id exclusivo para um elemento HTML
+O valor do id atributo deve ser único dentro do documento HTML
+O id atributo é usado por CSS e JavaScript para estilizar/selecionar um elemento específico
+O valor do id atributo diferencia maiúsculas de minúsculas
+O id atributo também é usado para criar marcadores HTML
+JavaScript pode acessar um elemento com um id específico com o getElementById() método -->
+
+</body>
+</html>

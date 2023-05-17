@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Web design responsivo em HTML</h1>
+
+    <!-- Web design responsivo é criar páginas da Web com boa aparência em todos os dispositivos!
+
+Um web design responsivo se ajustará automaticamente para diferentes tamanhos de tela e viewports. -->
+
+<h2>O que é Web Design Responsivo?</h2>]
+
+<!-- Responsive Web Design é sobre o uso de HTML e CSS para redimensionar, ocultar, encolher ou ampliar automaticamente um site, para torná-lo bonito em todos os dispositivos (desktops, tablets e telefones): -->
+
+<h2>Configurando a Janela de Visualização</h2>
+
+<!-- Para criar um site responsivo, adicione a seguinte <meta> tag a todas as suas páginas da web: -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Isso definirá a janela de visualização da sua página, que fornecerá ao navegador instruções sobre como controlar as dimensões e o dimensionamento da página.
+
+Aqui está um exemplo de uma página web sem a meta tag viewport e a mesma página web com a meta tag viewport: -->
+
+<h1>Imagens responsivas</h1>
+
+<!-- Imagens responsivas são imagens que se adaptam bem a qualquer tamanho de navegador.
+
+Usando a propriedade width
+Se a propriedade CSS widthestiver definida como 100%, a imagem será responsiva e dimensionada para cima e para baixo: -->
+
+<img src="img/Senac_logo.svg.png" style="width:100%;">
+
+<!-- Observe que no exemplo acima, a imagem pode ser ampliada para ficar maior que seu tamanho original. Uma solução melhor, em muitos casos, será usar a max-widthpropriedade.
+
+Usando a propriedade max-width
+Se a max-widthpropriedade estiver definida como 100%, a imagem será reduzida se necessário, mas nunca será ampliada para ficar maior que o tamanho original: -->
+
+<img src="img/Senac_logo.svg.png" style="max-width:100%;height:auto;">
+
+<!-- Mostrar imagens diferentes dependendo da largura do navegador
+O elemento HTML <picture>permite definir diferentes imagens para diferentes tamanhos de janela do navegador.
+
+Redimensione a janela do navegador para ver como a imagem abaixo muda dependendo da largura: -->
+
+<picture>
+    <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+    <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+    <source srcset="flowers.jpg">
+    <img src="img/Senac_logo.svg.png" alt="Flowers">
+  </picture>
+
+  <h2>Tamanho de texto responsivo</h2>
+
+  <!-- O tamanho do texto pode ser definido com uma unidade "vw", que significa a "largura da janela de visualização".
+
+Dessa forma, o tamanho do texto seguirá o tamanho da janela do navegador: -->
+
+<h1 style="font-size:10vw">Hello World</h1>
+
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+</head>
+<body>
+
+    <h1>Codificação HTML (conjuntos de caracteres)</h1>
+
+    <!-- Para exibir uma página HTML corretamente, um navegador da Web deve saber qual conjunto de caracteres usar. -->
+
+    <h2>De ASCII para UTF-8</h2>
+
+    <!-- ASCII foi o primeiro padrão de codificação de caracteres. ASCII definiu 128 caracteres diferentes que poderiam ser usados ​​na internet: números (0-9), letras inglesas (AZ) e alguns caracteres especiais como ! $ + - ( ) @ < > .
+
+ISO-8859-1 era o conjunto de caracteres padrão para HTML 4. Esse conjunto de caracteres suportava 256 códigos de caracteres diferentes. HTML 4 também suporta UTF-8.
+
+ANSI (Windows-1252) era o conjunto de caracteres original do Windows. ANSI é idêntico a ISO-8859-1, exceto que ANSI tem 32 caracteres extras.
+
+A especificação HTML5 incentiva os desenvolvedores da Web a usar o conjunto de caracteres UTF-8, que abrange quase todos os caracteres e símbolos do mundo! -->
+
+<h2>O atributo HTML charset</h2>
+
+<!-- Para exibir uma página HTML corretamente, um navegador da Web deve conhecer o conjunto de caracteres usado na página.
+
+Isso é especificado na <meta>tag: -->
+
+<meta charset="UTF-8">
+
+<h2>O conjunto de caracteres ASCII</h2>
+
+<!-- ASCII usa os valores de 0 a 31 (e 127) para caracteres de controle.
+
+ASCII usa os valores de 32 a 126 para letras, dígitos e símbolos.
+
+ASCII não usa os valores de 128 a 255. -->
+
+<h2>O conjunto de caracteres ANSI (Windows-1252)</h2>
+
+<!-- ANSI é idêntico ao ASCII para os valores de 0 a 127.
+
+ANSI possui um conjunto proprietário de caracteres para os valores de 128 a 159.
+
+ANSI é idêntico ao UTF-8 para os valores de 160 a 255. -->
+
+<h2>O conjunto de caracteres ISO-8859-1</h2>
+
+<!-- ISO-8859-1 é idêntico ao ASCII para os valores de 0 a 127.
+
+ISO-8859-1 não usa os valores de 128 a 159.
+
+ISO-8859-1 é idêntico ao UTF-8 para os valores de 160 a 255. -->
+
+<h2>O conjunto de caracteres UTF-8</h2>
+
+<!-- UTF-8 é idêntico ao ASCII para os valores de 0 a 127.
+
+UTF-8 não usa os valores de 128 a 159. 
+
+UTF-8 é idêntico a ANSI e 8859-1 para os valores de 160 a 255.
+
+UTF-8 continua a partir do valor 256 com mais de 10.000 caracteres diferentes.
+
+Para uma visão mais detalhada, estude nossa Referência completa do conjunto de caracteres HTML .
+
+ -->
+    
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <H1>Links HTML - Hiperlinks</H1>
+
+    <!-- Links HTML são hiperlinks.
+
+Você pode clicar em um link e pular para outro documento.
+
+Quando você move o mouse sobre um link, a seta do mouse se transforma em uma mãozinha. -->
+
+<h1>Links HTML - Sintaxe</h1>
+<!-- A tag HTML <a>define um hiperlink. Possui a seguinte sintaxe: -->
+    <a href="url">link text</a>
+<!-- O atributo mais importante do <a> elemento é o hrefatributo, que indica o destino do link.
+
+O texto do link é a parte que ficará visível para o leitor.
+
+Clicar no texto do link enviará o leitor ao endereço de URL especificado. -->
+
+<h2>Este exemplo mostra como criar um link para W3Schools.com:</h2>
+
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+
+<h2>Links HTML - O atributo de destino</h2>
+
+<!-- Por padrão, a página vinculada será exibida na janela atual do navegador. Para alterar isso, você deve especificar outro destino para o link.
+
+O targetatributo especifica onde abrir o documento vinculado.
+
+O targetatributo pode ter um dos seguintes valores:
+
+_self- Padrão. Abre o documento na mesma janela/guia em que foi clicado
+_blank- Abre o documento em uma nova janela ou guia
+_parent- Abre o documento no quadro pai
+_top- Abre o documento em todo o corpo da janela -->
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+<h2>URLs absolutos vs. URLs relativos</h2>
+
+<!-- Ambos os exemplos acima estão usando um URL absoluto (um endereço da Web completo) no hrefatributo.
+
+Um link local (um link para uma página dentro do mesmo site) é especificado com um URL relativo (sem a parte "https://www"): -->
+
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+<h2>Links HTML - Use uma imagem como um link</h2>
+<!-- Para usar uma imagem como link, basta colocar a <img> tag dentro da <a>tag: -->
+
+    <a href="default.asp">
+        <img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+        </a>
+
+<h2>Link para um endereço de e-mail</h2>
+<!-- Use mailto:dentro do hrefatributo para criar um link que abra o programa de e-mail do usuário (para permitir que ele envie um novo e-mail): -->
+
+<a href="mailto:someone@example.com">Send email</a>
+
+<h2>Botão como um link</h2>
+<!-- Para usar um botão HTML como um link, você precisa adicionar algum código JavaScript.
+
+O JavaScript permite que você especifique o que acontece em determinados eventos, como o clique de um botão: -->
+
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+<h2>Títulos de links</h2>
+
+<!-- O titleatributo especifica informações extras sobre um elemento. As informações geralmente são mostradas como um texto de dica de ferramenta quando o mouse passa sobre o elemento. -->
+
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+<h2>Mais sobre URLs absolutos e URLs relativos</h2>
+
+<h3>Use um URL completo para vincular a uma página da Web: </h3>
+
+<a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a>
+
+<h3>Link para uma página localizada na pasta html no site atual: </h3>
+
+<a href="/html/default.asp">HTML tutorial</a>
+
+<h3>Link para uma página localizada na mesma pasta da página atual: </h3>
+
+<a href="default.asp">HTML tutorial</a>
+
+<!-- Resumo do capítulo
+Use o <a>elemento para definir um link
+Use o hrefatributo para definir o endereço do link
+Use o targetatributo para definir onde abrir o documento vinculado
+Use o <img>elemento (inside <a>) para usar uma imagem como link
+Use o mailto:esquema dentro do hrefatributo para criar um link que abra o programa de e-mail do usuário
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

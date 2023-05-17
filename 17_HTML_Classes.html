@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+.main {
+  text-align: center;
+
+}
+
+.note {
+  font-size: 120%;
+  color: red;
+}
+
+  </style>
+</head>
+<body>
+
+    <h1>Atributo de classe HTML</h1>
+    <!-- O atributo HTML classé usado para especificar uma classe para um elemento HTML.
+
+Vários elementos HTML podem compartilhar a mesma classe. -->
+
+<h2>Usando o atributo de classe</h2>
+
+<!-- O classatributo geralmente é usado para apontar para um nome de classe em uma folha de estilo. Também pode ser usado por um JavaScript para acessar e manipular elementos com o nome de classe específico.
+
+No exemplo a seguir temos três <div>elementos com um classatributo com o valor "cidade". Todos os três <div> elementos serão estilizados igualmente de acordo com a .city definição de estilo na seção head: -->
+
+
+ <h2>Várias classes</h2>
+<!-- Os elementos HTML podem pertencer a mais de uma classe.
+
+Para definir várias classes, separe os nomes das classes com um espaço, por exemplo, <div class="city main">. O elemento será estilizado de acordo com todas as classes especificadas.
+
+No exemplo a seguir, o primeiro <h2>elemento pertence tanto à cityclasse quanto à mainclasse e obterá os estilos CSS de ambas as classes:  -->
+
+<h2 class="city main">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+<!-- No exemplo a seguir temos dois <span> elementos com um classatributo com o valor "nota". Ambos <span> os elementos serão estilizados igualmente de acordo com a .note definição de estilo na seção head: -->
+
+<h1>My <span class="note">Important</span> Heading</h1>
+<p>This is some <span class="note">important</span> text.</p>
+
+<h2>Diferentes elementos podem compartilhar a mesma classe</h2>
+
+<!-- Diferentes elementos HTML podem apontar para o mesmo nome de classe.
+
+No exemplo a seguir, ambos <h2>apontam <p> para a classe "city" e compartilharão o mesmo estilo: -->
+
+<h2 class="city">Paris</h2>
+<p class="city">Paris is the capital of France</p>
+
+
+
+
+
+</body>
+</html>

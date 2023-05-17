@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <h2>Símbolos HTML</h2>
+
+    <!-- Símbolos que não estão presentes em seu teclado também podem ser adicionados usando entidades. -->
+
+    <h2>Entidades de símbolo HTML</h2>
+
+    <!-- As entidades HTML foram descritas no capítulo anterior.
+
+Muitos símbolos matemáticos, técnicos e monetários não estão presentes em um teclado normal.
+
+Para adicionar esses símbolos a uma página HTML, você pode usar o nome da entidade ou o número da entidade (uma referência decimal ou hexadecimal) para o símbolo. -->
+
+<p>I will display &euro;</p>
+<p>I will display &#8364;</p>
+<p>I will display &#x20AC;</p>
+
+<h1>Usando Emojis em HTML</h1>
+
+<!-- Emojis são caracteres do conjunto de caracteres UTF-8: 😄 😍 💗 -->
+
+<h2>O que são Emojis?</h2>
+
+<!-- Os emojis parecem imagens ou ícones, mas não são.
+
+São letras (caracteres) do conjunto de caracteres UTF-8 (Unicode). -->
+
+<h2>O atributo HTML charset</h2>
+
+<!-- Para exibir uma página HTML corretamente, um navegador da Web deve conhecer o conjunto de caracteres usado na página.
+
+Isso é especificado na <meta>tag: -->
+
+<meta charset="UTF-8">
+
+<h2>Caracteres UTF-8</h2>
+
+<!-- Muitos caracteres UTF-8 não podem ser digitados em um teclado, mas sempre podem ser exibidos usando números (chamados de números de entidade):
+
+A é 65
+B é 66
+C é 67 -->
+
+<p>I will display A B C</p> 
+<p>I will display &#65; &#66; &#67;</p> 
+
+<h2>Emojis</h2>
+
+<!-- Emojis também são caracteres do alfabeto UTF-8:
+
+😄 é 128516
+😍 é 128525
+💗 é 128151 -->
+
+<h1>My First Emoji</h1>
+
+<p>&#128512;</p>
+
+<!-- Como os emojis são caracteres, eles podem ser copiados, exibidos e dimensionados como qualquer outro caractere em HTML. -->
+
+<p style="font-size:48px">
+    &#128512; &#128516; &#128525; &#128151;
+    </p>
+
+    
+</body>
+</html>

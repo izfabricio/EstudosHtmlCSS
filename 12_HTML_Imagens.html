@@ -1,0 +1,107 @@
+<html>
+    <head>
+
+        <style>
+            img {
+              width: 100%;
+            }
+            </style>
+        
+    </head>
+
+    <body>
+
+<h1>Imagens HTML</h1>
+
+<!-- As imagens podem melhorar o design e a aparência de uma página da web.
+
+ -->
+
+ <img src="img/Senac_logo.svg.png" alt="Italian Trulli">
+
+ <h2>Sintaxe de Imagens HTML</h2>
+ <!-- A tag HTML <img>é usada para incorporar uma imagem em uma página da web.
+
+As imagens não são tecnicamente inseridas em uma página da web; as imagens estão vinculadas a páginas da web. A <img>tag cria um espaço de retenção para a imagem referenciada.
+
+A <img>tag está vazia, contém apenas atributos e não possui uma tag de fechamento.
+
+A <img>tag tem dois atributos obrigatórios:
+
+src - Especifica o caminho para a imagem
+alt - Especifica um texto alternativo para a imagem -->
+
+<img src="url" alt="alternatetext">
+
+<h2>O Atributo src</h2>
+
+<!-- O atributo obrigatório srcespecifica o caminho (URL) para a imagem.
+
+Nota: Quando uma página web carrega, é o navegador, nesse momento, que obtém a imagem de um servidor web e a insere na página. Portanto, certifique-se de que a imagem realmente permaneça no mesmo local em relação à página da Web, caso contrário, seus visitantes receberão um ícone de link quebrado. O ícone de link quebrado e o alttexto são mostrados se o navegador não conseguir encontrar a imagem. -->
+
+<img src="img/Senac_logo.svg.png" alt="Logo do Senac">
+
+<h2>O Atributo Alt</h2>
+
+<!-- O altatributo obrigatório fornece um texto alternativo para uma imagem, se o usuário por algum motivo não puder visualizá-la (devido a uma conexão lenta, um erro no atributo src ou se o usuário usar um leitor de tela).
+
+O valor do altatributo deve descrever a imagem: -->
+
+<h2>Tamanho da Imagem - Largura e Altura</h2>
+
+<!-- Você pode usar o styleatributo para especificar a largura e a altura de uma imagem. -->
+
+<img src="img/Senac_logo.svg.png" alt="Logo senac" style="width:500px;height:600px;">
+
+<!-- Como alternativa, você pode usar os atributos widthe :height -->
+
+<img src="img/Senac_logo.svg.png" alt="Logo Senac" width="500" height="600">
+
+<h2>Largura e Altura ou Estilo?</h2>
+
+<!-- Os atributos width, heighte stylesão todos válidos em HTML.
+
+No entanto, sugerimos o uso do styleatributo. Isso evita que as folhas de estilo alterem o tamanho das imagens: -->
+
+<img src="img/Senac_logo.svg.png" alt="HTML5 Icon" width="128" height="128">
+
+<img src="img/Senac_logo.svg.png" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+<h2>Imagens em outro servidor/site</h2>
+
+<!-- Alguns sites apontam para uma imagem em outro servidor.
+
+Para apontar para uma imagem em outro servidor, você deve especificar uma URL absoluta (completa) no srcatributo: -->
+
+<img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+<h2>Imagem como um link</h2>
+
+<!-- Para usar uma imagem como link, coloque a <img>tag dentro da <a> tag: -->
+
+    <a href="default.asp">
+        <img src="img/Senac_logo.svg.png" alt="HTML tutorial" style="width:42px;height:42px;">
+      </a>
+
+      <h2>Imagem flutuante</h2>
+
+      <!-- Use a propriedade CSS floatpara deixar a imagem flutuar à direita ou à esquerda de um texto: -->
+    
+      <p><img src="img/Senac_logo.svg.png" alt="logo senac" style="float:right;width:42px;height:42px;">
+        The image will float to the right of the text.</p>
+        
+        <p><img src="img/Senac_logo.svg.png" alt="Logo senac" style="float:left;width:42px;height:42px;">
+        The image will float to the left of the text.</p>
+
+        <!-- Resumo do capítulo
+Use o elemento HTML <img>para definir uma imagem
+Use o atributo HTML srcpara definir a URL da imagem
+Use o altatributo HTML para definir um texto alternativo para uma imagem, se ela não puder ser exibida
+Use o HTML widthe heightos atributos ou o CSS widthe height as propriedades para definir o tamanho da imagem
+Use a propriedade CSS floatpara deixar a imagem flutuar para a esquerda ou para a direita -->
+
+
+
+
+</body>
+</html>

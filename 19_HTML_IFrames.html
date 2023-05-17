@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Iframes HTML</h1>
+<!-- Um iframe HTML é usado para exibir uma página da web dentro de uma página da web. -->
+
+<h2>Sintaxe HTML Iframe</h2>
+
+<!-- A tag HTML <iframe>especifica um quadro embutido.
+
+Um quadro embutido é usado para incorporar outro documento no documento HTML atual. -->
+
+<iframe src="url" title="description"></iframe>
+
+<h2>Iframe - Definir altura e largura</h2>
+
+<!-- Use os atributos heighte widthpara especificar o tamanho do iframe.
+
+A altura e a largura são especificadas em pixels por padrão: -->
+
+<iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"></iframe>
+
+<!-- Ou você pode adicionar o styleatributo e usar o CSS heighte width as propriedades: -->
+
+<iframe src="demo_iframe.htm" style="height:200px;width:300px;" title="Iframe Example"></iframe>
+
+<h2>Iframe - Remova a borda</h2>
+
+<!-- Por padrão, um iframe tem uma borda ao seu redor.
+
+Para remover a borda, adicione o styleatributo e use a borderpropriedade CSS: -->
+
+<iframe src="demo_iframe.htm" style="border:none;" title="Iframe Example"></iframe>
+
+<!-- Com CSS, você também pode alterar o tamanho, estilo e cor da borda do iframe: -->
+
+<iframe src="demo_iframe.htm" style="border:2px solid red;" title="Iframe Example"></iframe>
+
+<h2>Iframe - Alvo para um Link</h2>
+
+<!-- Um iframe pode ser usado como o quadro de destino para um link.
+
+O targetatributo do link deve se referir ao nameatributo do iframe: -->
+
+<iframe src="demo_iframe.htm" name="iframe_a" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<!-- Resumo do capítulo
+A tag HTML <iframe>especifica um quadro embutido
+O src atributo define a URL da página a ser incorporada
+Sempre inclua um titleatributo (para leitores de tela)
+Os atributos heighte widthespecificam o tamanho do iframe
+Use border:none;para remover a borda ao redor do iframe -->
+
+</body>
+</html>
+
